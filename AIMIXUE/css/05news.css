@@ -1,0 +1,136 @@
+.banner{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.banner>img{
+	width: 100%;
+}
+/*新闻*/
+.pro{
+	text-align: right;
+	cursor: pointer;
+	margin-bottom: -6px;
+	
+}
+.pro span:last-child{
+	color: red;
+}
+.products_us1>span{
+	display: inline-block;
+	position: relative;
+	margin-top:-9px;
+	font-size: 20px;
+	border: 1px solid #666666;
+	border-top: none;
+	width: 145px;
+	line-height: 35px;
+	text-align: center;
+}
+.products_us1 .white55{
+	position: absolute;
+	display: inline-block;
+	width: 120px;
+	height: 2px;
+	background: #ffffff;
+}
+.products_us1 .onee{
+	top: -2px;
+	left: -2px;
+}
+.products_us1 .twoe{
+	bottom: -1px;
+	left: 23px;
+}
+
+.products_us1 .white11{
+	display: inline-block;
+	position: absolute;
+	width: 1px;
+	height: 20px;
+	background: #FFFFFF;
+	z-index: 1;
+}
+.products_us1 .threee{
+	left: -1px;
+	top: -1px;
+}
+.products_us1 .foure{
+	left:143px;
+	top: 16px;
+}
+
+
+/*内容*/
+/*新闻*/
+.news{
+	margin-top: 25px;
+}
+.news_main{
+	display: flex;
+	justify-content: space-between;
+
+	flex-wrap: wrap;
+}
+.newsbox1{
+	margin-top: 40px;
+	margin-left: 185px;
+	display: flex;
+	/*width: 590px;*/
+	/*height: ;*/
+}
+.date1{
+	height: 90px;
+	width:90px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #666;
+	text-align: center;
+}
+.date1>.dater{
+	line-height: 45px;
+}
+.date1>.year{
+	font-size: 18px;
+	color: white;
+	/*border-bottom: 1px solid #666;*/
+	line-height: 45px;
+	background: #666;
+}
+.newsNew{
+	/*width:480px;*/
+	margin-left: 10px;
+}
+.newsbox1:hover h3{
+	color: red;
+}
+.newsbox1:hover  .dater{
+	color: red;
+}
+h3{
+	font-size: 16px;
+	margin-bottom: 10px;
+	display: inline-block;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #666;
+}
+.mainner{
+	display: inline-block;
+	font-size: 14px;
+}
+/*换页效果*/
+.products_us1>ul{
+	width: 600px;
+	display: flex;
+	position: relative;
+	margin-top: 30px;
+	margin-left: -250px;
+	left: 50%;
+}
+.products_us1>ul a{
+	display: inline-block;
+	width: 53px;
+	padding: 3px;
+	margin-left: 10px;
+	border: 1px solid #666666;
+	text-align: center;
+}

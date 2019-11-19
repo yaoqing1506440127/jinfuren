@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/05news.css"/>
+		<script src="jquery-1.11.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			h3{
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="nav w1200">
+			<img src="img/服装_03.png"/ class="fl">
+			<ul class="fr">
+				<li><a href="index1.html">首页</a></li>
+				<li><a href="02about_us.html">关于我们</a></li>
+				<li><a href="03product.html">产品展示</a></li>
+				<li><a href="04team.html">设计团队</a></li>
+				<li><a href="05news.html" class="active">新闻动态</a></li>
+			</ul>
+		</div>
+		<div class="banner">
+			<img src="img/images服装子网页2/服装子网页2_02.png"/>
+		</div>
+		<div class="w1200 news team">
+			<p class="pro">
+				<span>首页:</span>
+				<span>新闻动态</span>
+			</p>
+			
+			<hr>
+			<div class="products_us1">
+				<span>新闻动态
+					<span class="white55 onee"></span>
+					<span class="white55 twoe"></span>
+					<span class="white11 threee"></span>
+					<span class="white11 foure"></span>	
+				</span>
+				<div class="newsbox">
+					<div class="news_main">
+		                <div class="newsbox1">
+		                	<div class="date1">
+		                		<span class="dater">TWO</span>
+		                		<span class="year">2018</span>	                		
+		                	</div>
+		                	<div class="newsNew">
+		                		<h3 class="fir">EIMICHS获数百万元天使轮融资</h3>
+		                		<span class="mainner">
+		                			EIMICHS已完成数百万元天使轮融资，天使湾领投,跟投。据悉，本轮融资资金将主要用于品牌推广和渠道拓展。目前中国有4600万肥胖女性,数量已超美国成为世界第一。
+		                		</span>
+		                	</div>
+		                </div>
+		                <div class="newsbox1">
+		                	<div class="date1">
+		                		<span class="dater">TWO</span>
+		                		<span class="year">2018</span>	                		
+		                	</div>
+		                	<div class="newsNew">
+		                		<h3 class="fir1">EIMICHS获数百万元天使轮融资</h3>
+		                		<span class="mainner">
+		                			EIMICHS已完成数百万元天使轮融资，天使湾领投,跟投。据悉，本轮融资资金将主要用于品牌推广和渠道拓展。目前中国有4600万肥胖女性,数量已超美国成为世界第一。
+		                		</span>
+		                	</div>
+		                </div>
+		                 <div class="newsbox1">
+		                	<div class="date1">
+		                		<span class="dater">TWO</span>
+		                		<span class="year">2018</span>	                		
+		                	</div>
+		                	<div class="newsNew">
+		                		<h3 class="fir2">EIMICHS获数百万元天使轮融资</h3>
+		                		<span class="mainner">
+		                			EIMICHS已完成数百万元天使轮融资，天使湾领投,跟投。据悉，本轮融资资金将主要用于品牌推广和渠道拓展。目前中国有4600万肥胖女性,数量已超美国成为世界第一。
+		                		</span>
+		                	</div>
+		                </div>
+		                 <div class="newsbox1">
+		                	<div class="date1">
+		                		<span class="dater">TWO</span>
+		                		<span class="year">2018</span>	                		
+		                	</div>
+		                	<div class="newsNew">
+		                		<h3 class="fir3">EIMICHS获数百万元天使轮融资</h3>
+		                		<span class="mainner">
+		                			EIMICHS已完成数百万元天使轮融资，天使湾领投,跟投。据悉，本轮融资资金将主要用于品牌推广和渠道拓展。目前中国有4600万肥胖女性,数量已超美国成为世界第一。
+		                		</span>
+		                	</div>
+		                </div>
+		           	</div>		            
+				</div>
+				<ul>
+					<li><a href="">首页</a></li>
+					<li><a href="">上页</a></li>
+					<li><a href="">1</a></li>
+					<li><a href="">2</a></li>
+					<li><a href="">3</a></li>
+					<li><a href="">4</a></li>
+					<li><a href="">5</a></li>
+					<li><a href="">...</a></li>
+					<li><a href="">12</a></li>
+					<li><a href="">下页</a></li>
+					<li><a href="">尾页</a></li>
+					<li><a href="">GO</a></li>
+				</ul>
+			</div>
+		</div>
+		<footer>
+			COPYRIGHT◎2014 GIRDEAR ALL RIGHTS RESERVED版权所有:浙江印象实业股份有限公司浙ICP备15046969号
+		</footer>
+		<script type="text/javascript">
+//			var h31=$(`.fir, .fir1, .fir2, .fir3`);
+//console.log($("h3"))
+			$(".news_main").click(e=>{
+		
+				var e=e||window.event;
+				var $target=$(e.target)||$(e.srcElement);
+				if($target.attr("class")!="news_main"){
+					while($target.attr("class")!="newsbox1"){
+					$target=$target.parent();
+					}
+					if($target.index()==0){
+					location.href="05news_1.html";
+				}
+				else if($target.index()==1){
+					location.href="05news_2.html";
+					
+				}
+					else if($target.index()==2){
+					location.href="05news_3.html";
+					
+				}else if($target.index()==3){
+					location.href="05news_4.html";
+					
+				}
+					
+				}
+//				
+
+//				
+				
+				
+			})
+		</script>
+	</body>
+</html>

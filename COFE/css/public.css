@@ -1,0 +1,36 @@
+div,p,body,html,a,figure,h1,h2,h3,h4,h5,h6,img,ul,li,span,nav{
+	margin: 0;padding: 0;
+	box-sizing: border-box;
+}
+a{
+	
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+.w1200{
+	margin: 0 auto;
+	width: 1200px;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	
+}
+img{
+width: 100%;
+vertical-align: middle;}
+.w1005{
+	margin: 0 auto;
+	width: 1005px;
+}
